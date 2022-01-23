@@ -1,0 +1,8 @@
+{
+  "scheme": "mongodb+srv://",
+  "address": "https://aelahi.dev/coen-161/final/battleship",
+  "defaultDatabase": "boards",
+  "username": "battleship",
+  "password": "SCIN-ralk-wax",
+  "port": 35836
+}

@@ -1,0 +1,30 @@
+{
+  "name": "flight-events",
+  "version": "0.0.0",
+  "description": "Finds a route from one airport to another",
+  "main": "flight-events.js",
+  "scripts": {
+    "start": "node flight-events.js",
+    "test": "jest --watch",
+    "grade": "jest"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  },
+  "jest": {
+    "reporters": [
+      [
+        "<rootDir>/jest-grade-reporter.js",
+        {
+          "total": 20
+        }
+      ],
+      "default"
+    ]
+  }
+}

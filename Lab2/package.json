@@ -1,0 +1,26 @@
+{
+  "name": "lab-2-task-list",
+  "version": "0.0.0",
+  "description": "A task list CLI + server",
+  "main": "task-list.js",
+  "scripts": {
+    "start": "node task-list.js",
+    "test": "jest --watch",
+    "grade": "jest"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "date-fns": "^2.23.0"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  },
+  "jest": {
+    "reporters": [
+      "<rootDir>/jest-grade-reporter.js",
+      "default"
+    ]
+  }
+}

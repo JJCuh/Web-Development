@@ -1,0 +1,40 @@
+html {
+  font-size: 1-px;
+  color: blue;
+}
+
+body {
+  max-width: min(60rem, 80%);
+  overflow-x: hidden;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  max-height: 4rem;
+  min-height: 2rem;
+  height: 10%;
+  padding: 0.5rem 0rem;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+nav > .home {
+  margin-right: auto;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+nav > li {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
